@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { bgDark, bgLight, error, primary, secondary, textL } from "./tokens";
+import { bgLight, error, primary, secondary, textL } from "./tokens";
 
 interface Props {
   value?: string;

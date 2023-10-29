@@ -91,7 +91,7 @@ function App() {
             <Dilimeter />
             <Button
               stretch
-              disabled={!validatorAdress}
+              disabled={!stakeAccount}
               onClick={() => {
                 if (!stakeAccount) {
                   return;
@@ -109,11 +109,7 @@ function App() {
             <Dilimeter />
             <Button
               stretch
-              disabled={!validatorAdress}
               onClick={() => {
-                if (!stakeAccount) {
-                  return;
-                }
                 provider.history(walletAdress).then(setHistory);
               }}
             >
