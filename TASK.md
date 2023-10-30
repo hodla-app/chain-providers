@@ -1,6 +1,8 @@
 # Scaling Hodla on New Chains
 
-To scale [Hodla](https://app.hodla.org) on new blockchains, we are initiating an open-bounty program where third-party developers can contribute by creating a sample application. Our goal is unify the staking experience on all PoS chains. The application will be hosted on a new open-source repository and developers are encouraged to compete for a bounty by showcasing their expertise in integrating new blockchain networks.
+### Overview
+
+In order to scale [Hodla](https://app.hodla.org) on new blockchains, we have initiated an open-bounty program inviting third-party developers to contribute by creating a sample application. The objective is to unify the staking experience across all PoS chains. This application will be hosted on a new open-source repository, and developers are encouraged to compete for a bounty by showcasing their expertise in integrating new blockchain networks. The following task breakdown provides a detailed explanation of what's required.
 
 ### Task Breakdown:
 1. **Blockchain + Wallet Provider Code:**
@@ -74,4 +76,4 @@ Mention the wallet and network utilized.
 
 ### Task Verification:
 - The task will be verified locally. By executing the command npm start, a minimal frontend will be launched where one can connect the wallet, stake to a selected validator, unstake, and view transaction history.
-There should be no errors at any stage, the application should operate smoothly, execute transactions, which will also be verified in explorers.
+- There should be no errors at any stage, the application should operate smoothly, execute transactions, which will also be verified in explorers.
