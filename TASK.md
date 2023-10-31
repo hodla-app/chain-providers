@@ -4,6 +4,8 @@
 
 In order to scale [Hodla](https://app.hodla.org) on new blockchains, we have initiated an open-bounty program inviting third-party developers to contribute by creating a sample application. The objective is to unify the staking experience across all PoS chains. This application will be hosted on a new open-source repository, and developers are encouraged to compete for a bounty by showcasing their expertise in integrating new blockchain networks. The following task breakdown provides a detailed explanation of what's required.
 
+To claim a bounty, one needs to integrate a new chain into Hodla. This includes supporting staking, unstaking, claiming (where applicable), and providing transaction history from one of the most popular wallets in that blockchain.
+
 ### Task Breakdown:
 1. **Blockchain + Wallet Provider Code:**
    - Write code for a blockchain and wallet provider in the specified file (`/src/provider.ts`). The code should satisfy the [`WalletProvider`](https://github.com/hodla-app/chain-providers/blob/main/src/types.ts#L20) interface.
